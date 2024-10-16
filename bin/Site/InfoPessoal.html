@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passagem Para Viagem</title>
+    <link rel="stylesheet" href="StyleSite/style.css">
+</head>
+<body>
+
+    <form action="#" method="get"
+    target="_blank" autocomplete="off">
+
+    <h1> Adicione aqui informações adicionais para sua viagem</h1>
+
+    <p>
+        <label for="name"><b>Nome completo</b></label>
+        <input type="text" id="NomeCliente"
+        name="nomeCliente" placeholder="Digte seu nome completo" required>
+    </p>
+    <p>
+        <label for="date"> <b>Data de Nascimento</b></label>
+        <input type="date" id="dataNascimento"
+        name="dataNascimentoCliente" required>
+    </p>
+    <p class="sombra">
+        <b>Selecione uma das opções abaixo</b><br>
+        <label for="+18"> Sou maior de idade </label>
+        <input type="radio" id="maiorIdade"
+        name="idadeCliente" value="maior" checked>
+
+        <br>
+
+        <label for="-18"> Tenhos menos de 18 anos</label>
+        <input type="radio" id="menorIdade"
+        name="idadeCliente" value="menor">
+    </p>
+    <p>
+        <b> Selecione o pacote desejado: </b><br>
+        <label for="pacoteBásico"> Pacote Básico - Até 2 pessoas</label>
+        <input type="radio" id="pacoteBásico"
+        name="pacoteViagem" value="basico" checked> <br>
+        
+        <ul>
+            <li> 2 dias de viagem;</li>
+            <li> Hospedagem em hotel;</li>
+            <li> Café da manhã;</li>
+            <li> Trilha com instrutor.</li>
+        </ul>
+    <br>
+        <label for="pacoteDiamante"> Pacote diamante - Até 4 pessoas</label>
+        <input type="radio" id="pacoteDiamante"
+        name="pacoteViagem" value="diamante"><br>
+
+        <ul>
+            <li> 4 dias de viagem;</li>
+            <li> Hospedagem em hotel;</li>
+            <li> Café da manhã e café da tarde;</li>
+            <li> 1 opção de lugar para conhecer da cidade com tudo pago;</li>
+        </ul>
+<br>
+        <label for="pacoteOuro"> Pacote Ouro - Até 6 pessoas</label>
+        <input type="radio" id="pacoteOuro"
+        name="pacoteViagem" value="ouro"><br>
+
+        <ul>
+            <li> 6 dias de viagem:</li>
+            <li> Hospedagem em hotel;</li>
+            <li> Alimentação inclusa;</li>
+            <li> 2 opçoes de lugar para conhecer da cidade com tudo pago;</li>
+            <li> Voucher para SPA.</li>
+        </ul>
+    </p>
+<br>
+    <h3>Serviços a parte</h3>
+    <p>
+
+    <ul>
+    <li>
+        <label for="serviçoTrilha"> Trilha com instrutor: <b> R$50,00</b></label>
+        <input type="checkbox" id="serviçoTrilha"
+        name="serviçosIndividuais" value="trilha">
+    </li>
+<br>
+    <li>
+        <label for="serviçoBarco"> Passeio de barco: <b>R$80,00</b></label>
+        <input type="checkbox" id="serviçoBarco"
+        name="serviçosIndividuais" value="barco">
+    </li>
+<br>
+    <li>
+        <label for="serviçoAtração"> Conhecer principais atrações da cidade: <b>R$150,00</b> </label>
+        <input type="checkbox" id="serviçoAtração"
+        name="serviçosIndividuais" value="atração">
+    </li>
+    </ul>
+    </p>
+<br>
+    <h2> Informações de segurança para viajar com tranquilidade:</h2>
+<br>    
+<div class="container">
+    <div class="info_Segurança">
+        <h4> Planejamento financeiro</h4>
+        <p>
+            Para começar, é recomendado estimar os principais custos,
+            incluindo passagens, hospedagem, alimentação, transporte, atividades, 
+            despesas extras e uma margem para emergências.
+        </p>
+    </div>
+    <div class="info_Segurança">
+        <h4>Mantenha-se conectado </h4>
+        <p>
+            Manter-se em contato com amigos e familiares é vital. 
+            Informe-os sobre seu itinerário e forneça atualizações regulares.
+        </p>
+    </div>
+    <div class="info_Segurança">
+        <h4>Cuide de seus pertences</h4>
+        <p>
+            Utilize bolsas seguras, pochetes ou mochilas anti-roubo para manter 
+            seus objetos de valor próximos e seguros. 
+            Evite ostentar itens valiosos que podem chamar atenção desnecessária, 
+            como jóias, eletrônicos caros ou grande quantidade de dinheiro em espécie em locais públicos.
+        </p>
+    </div>
+    <div class="info_Segurança">
+        <h4>Documentação e seguro-viagem</h4>
+        <p>
+            Garanta que sua documentação esteja em ordem, incluindo passaporte válido e vistos necessários.
+            Contrate um seguro-viagem abrangente para cobrir assistência médica, extravio de bagagem e outras 
+            eventualidades.
+        </p>
+    </div>
+</div>
+    
+</body>
+</html>
