@@ -1,18 +1,15 @@
-## Getting Started
+# Projeto de Cadastro de Viagem
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+Este projeto consiste em um sistema de cadastro de usuários e preferência de viagens, desenvolvido com Java, HTML e CSS. O projeto é dividido em duas partes: a inserção de alguns dados pessoais simples e escolha de local para viagem via terminal na IDE utilizando Java e uma interface web para inserção de dados com HTML e CSS.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+### Parte 1: Cadastro via Terminal (Java)
+- Inserção de dados pessoais básicos.
+- Escolha de estado e cidade de preferência para viagem.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Parte 2: Interface Web (HTML e CSS)
+- Formulário web para inserção de dados pessoais.
+- Inputs de rádio e checkbox para seleção de preferências.
+- Informações adicionais de segurança.
